@@ -1,0 +1,4 @@
+22:50:21.901 [main] INFO  com.inetBanking.testCases.Tc_Login_001 - URL is Opened
+22:50:22.238 [main] INFO  com.inetBanking.testCases.Tc_Login_001 - user name entered
+22:50:22.423 [main] INFO  com.inetBanking.testCases.Tc_Login_001 - password entered
+22:50:32.076 [main] INFO  com.inetBanking.testCases.Tc_Login_001 - Loggin test passed

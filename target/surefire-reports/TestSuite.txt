@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 75.749 s <<< FAILURE! - in TestSuite
+com.inetBanking.testCases.Tc_AddNewCustomer_003.addNewCustomer  Time elapsed: 7.302 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <input type="submit" name="btnLogin" value="LOGIN"> is not clickable at point (438, 439). Other element would receive the click: <iframe src="https://cmp-consent-tool.privacymanager.io/latest/index.html#/notice?theme=defaultTheme&amp;useSystemFonts=false&amp;cmpType=tcf" id="gdpr-consent-notice" class="faktor-iframe-wrapper" aria-label="Privacy Manager window" role="dialog" aria-modal="true" frameborder="0" scrolling="yes" style="width: 100%; left: 0px; bottom: 0px; position: fixed; z-index: 2147483647;"></iframe>
+  (Session info: chrome=98.0.4758.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IL30J0Q', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Kisho\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61556}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e3ef2e76312ddbb86e880452268b4ed1
+	at com.inetBanking.testCases.Tc_AddNewCustomer_003.addNewCustomer(Tc_AddNewCustomer_003.java:17)
+
